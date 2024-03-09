@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson_16.hw.task_1.factory;
+package com.teachmeskills.lesson_16.hw.task_1.client;
 
 public class Client {
     private int age;
