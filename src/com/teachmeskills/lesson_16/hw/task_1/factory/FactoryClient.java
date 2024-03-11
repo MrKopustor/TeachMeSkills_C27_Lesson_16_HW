@@ -1,6 +1,6 @@
 package com.teachmeskills.lesson_16.hw.task_1.factory;
 
-import com.teachmeskills.lesson_16.hw.task_1.client.Client;
+import com.teachmeskills.lesson_16.hw.task_1.model.client.Client;
 
 import java.util.ArrayList;
 import java.util.List;

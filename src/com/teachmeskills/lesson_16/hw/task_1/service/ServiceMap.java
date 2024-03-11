@@ -1,6 +1,6 @@
 package com.teachmeskills.lesson_16.hw.task_1.service;
 
-import com.teachmeskills.lesson_16.hw.task_1.product.Product;
+import com.teachmeskills.lesson_16.hw.task_1.model.product.Product;
 
 import java.util.*;
 
@@ -23,6 +23,14 @@ public class ServiceMap {
         System.out.println("------------------");
 
         map.forEach((k, v) -> System.out.println("Key -> " + k + ", Value -> " + v));
+
+        System.out.println("------------------");
+
+        Iterator<Map.Entry<String, List<Product>>> iterator = map.entrySet().iterator();
+        while (iterator.hasNext()) {
+            Map.Entry<String, List<Product>> entry = iterator.next();
+            System.out.println("Key -> " + entry.getKey() + " Value -> " + entry.getValue());
+        }
 
         System.out.println("------------------");
 

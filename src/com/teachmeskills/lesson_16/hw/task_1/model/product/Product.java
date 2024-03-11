@@ -1,4 +1,4 @@
-package com.teachmeskills.lesson_16.hw.task_1.product;
+package com.teachmeskills.lesson_16.hw.task_1.model.product;
 
 public class Product {
     private double price;

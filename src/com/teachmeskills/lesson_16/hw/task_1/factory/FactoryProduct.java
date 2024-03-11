@@ -1,6 +1,6 @@
 package com.teachmeskills.lesson_16.hw.task_1.factory;
 
-import com.teachmeskills.lesson_16.hw.task_1.product.Product;
+import com.teachmeskills.lesson_16.hw.task_1.model.product.Product;
 
 import java.util.ArrayList;
 import java.util.List;
